@@ -1,0 +1,134 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\Muhammed Hashir\Desktop\body-movement-tracking> python det.py
+Traceback (most recent call last):
+  File "C:\Users\Muhammed Hashir\Desktop\body-movement-tracking\det.py", line 1, in <module>
+    import cv2
+ModuleNotFoundError: No module named 'cv2'
+PS C:\Users\Muhammed Hashir\Desktop\body-movement-tracking> pip install opencv-python
+Collecting opencv-python
+  Using cached opencv_python-4.6.0.66-cp36-abi3-win_amd64.whl (35.6 MB)
+Requirement already satisfied: numpy>=1.14.5 in c:\users\muhammed hashir\appdata\local\programs\python\python310\lib\site-packages (from opencv-python) (1.23.4)
+Installing collected packages: opencv-python
+Successfully installed opencv-python-4.6.0.66
+PS C:\Users\Muhammed Hashir\Desktop\body-movement-tracking> python det.py
+Traceback (most recent call last):
+  File "C:\Users\Muhammed Hashir\Desktop\body-movement-tracking\det.py", line 2, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+PS C:\Users\Muhammed Hashir\Desktop\body-movement-tracking> python det.py
+Traceback (most recent call last):
+  File "C:\Users\Muhammed Hashir\Desktop\body-movement-tracking\det.py", line 2, in <module>
+    import pyautogui
+ModuleNotFoundError: No module named 'pyautogui'
+PS C:\Users\Muhammed Hashir\Desktop\body-movement-tracking> pip install pyautogui
+Collecting pyautogui
+  Downloading PyAutoGUI-0.9.53.tar.gz (59 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.0/59.0 kB 1.6 MB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Collecting pymsgbox
+  Downloading PyMsgBox-1.0.9.tar.gz (18 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting PyTweening>=1.0.1
+  Downloading pytweening-1.0.4.tar.gz (14 kB)
+  Preparing metadata (setup.py) ... done
+Collecting pyscreeze>=0.1.21
+  Downloading PyScreeze-0.1.28.tar.gz (25 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting pygetwindow>=0.0.5
+  Downloading PyGetWindow-0.0.9.tar.gz (9.7 kB)
+  Preparing metadata (setup.py) ... done
+Collecting mouseinfo
+  Downloading MouseInfo-0.1.3.tar.gz (10 kB)
+  Preparing metadata (setup.py) ... done
+Collecting pyrect
+  Downloading PyRect-0.2.0.tar.gz (17 kB)
+  Preparing metadata (setup.py) ... done
+Collecting pyperclip
+  Downloading pyperclip-1.8.2.tar.gz (20 kB)
+  Preparing metadata (setup.py) ... done
+Building wheels for collected packages: pyautogui, pygetwindow, pyscreeze, PyTweening, mouseinfo, pymsgbox, pyperclip, pyrect
+  Building wheel for pyautogui (setup.py) ... done
+  Created wheel for pyautogui: filename=PyAutoGUI-0.9.53-py3-none-any.whl size=36639 sha256=cae2f3c1e9a3d37219bbd8fa23e62e61515d2ba57a55b30080265d73c3251f85
+  Stored in directory: c:\users\muhammed hashir\appdata\local\pip\cache\wheels\f3\5a\96\45dbf918cc12979b2068357eb22c87875e2aeedcda080ec286
+  Building wheel for pygetwindow (setup.py) ... done
+  Created wheel for pygetwindow: filename=PyGetWindow-0.0.9-py3-none-any.whl size=11094 sha256=42b095bad8481808e2c987beeee05d414664b8044bcefd274d2b3890309dad97
+  Stored in directory: c:\users\muhammed hashir\appdata\local\pip\cache\wheels\b4\ba\41\c09cef95c23cdfed6af9df7328306fafbf27df2e77b14d25d7
+  Building wheel for pyscreeze (pyproject.toml) ... done
+  Created wheel for pyscreeze: filename=PyScreeze-0.1.28-py3-none-any.whl size=13027 sha256=449dbb2084a6bb42ac1333ca6219025a5ae056b8210a46194a1710318cf9aa04
+  Stored in directory: c:\users\muhammed hashir\appdata\local\pip\cache\wheels\f7\3c\82\2e45b77cc2efeb7db09eb00bae84c0b3f6d80683c20e98394b
+  Building wheel for PyTweening (setup.py) ... done
+  Created wheel for PyTweening: filename=pytweening-1.0.4-py3-none-any.whl size=5871 sha256=aea8603aebb15d193611c541a04e21d51214e3927e53ae6d66afee59929ed1ff
+  Stored in directory: c:\users\muhammed hashir\appdata\local\pip\cache\wheels\a9\0e\81\0503c4297d583d64ff536b82a4e4db07338b204fc531124a78
+  Building wheel for mouseinfo (setup.py) ... done
+  Created wheel for mouseinfo: filename=MouseInfo-0.1.3-py3-none-any.whl size=10921 sha256=1dccb00b70d9e64edeadbf0d79ace2bc0461bd4c8111ffca6880452de70b6fd2
+  Stored in directory: c:\users\muhammed hashir\appdata\local\pip\cache\wheels\52\e8\77\5f70ba97301c6d825754eea9f12f0ffd00e119fba64a68f4d2
+  Building wheel for pymsgbox (pyproject.toml) ... done
+  Created wheel for pymsgbox: filename=PyMsgBox-1.0.9-py3-none-any.whl size=7416 sha256=f70d50ab8e2c754a5a8269b9db15acec12980f939ca8e1fbadd8d9b4c07fac22
+  Stored in directory: c:\users\muhammed hashir\appdata\local\pip\cache\wheels\97\61\22\1a0de2324b204d675c5bfb28b944101eb48dcf1a1fe87bcce7
+  Building wheel for pyperclip (setup.py) ... done
+  Created wheel for pyperclip: filename=pyperclip-1.8.2-py3-none-any.whl size=11149 sha256=732234187dba62faff3213e21edcee709259c8b4a4b74c5278687531169f9451
+  Stored in directory: c:\users\muhammed hashir\appdata\local\pip\cache\wheels\3c\77\81\aaa2802e9b0553585f2789c6f2756b50a09a01d2848423bb15
+  Building wheel for pyrect (setup.py) ... done
+  Created wheel for pyrect: filename=PyRect-0.2.0-py2.py3-none-any.whl size=11225 sha256=b9de4c119e1c265d79df850b1c21ce59339f9bce6b03d8ca91a7edbc2db08261
+  Stored in directory: c:\users\muhammed hashir\appdata\local\pip\cache\wheels\63\0e\55\adb1553ad973caacffc0bd779f74f4749f904da246674a26a1
+Successfully built pyautogui pygetwindow pyscreeze PyTweening mouseinfo pymsgbox pyperclip pyrect
+Installing collected packages: PyTweening, pyscreeze, pyrect, pyperclip, pymsgbox, pygetwindow, mouseinfo, pyautogui
+Successfully installed PyTweening-1.0.4 mouseinfo-0.1.3 pyautogui-0.9.53 pygetwindow-0.0.9 pymsgbox-1.0.9 pyperclip-1.8.2 pyrect-0.2.0 pyscreeze-0.1.28
+PS C:\Users\Muhammed Hashir\Desktop\body-movement-tracking> python det.py
+Traceback (most recent call last):
+  File "C:\Users\Muhammed Hashir\Desktop\body-movement-tracking\det.py", line 6, in <module>
+    import mediapipe as mp
+ModuleNotFoundError: No module named 'mediapipe'
+PS C:\Users\Muhammed Hashir\Desktop\body-movement-tracking> pip install medapipe
+ERROR: Could not find a version that satisfies the requirement medapipe (from versions: none)
+ERROR: No matching distribution found for medapipe
+PS C:\Users\Muhammed Hashir\Desktop\body-movement-tracking> pip install mediapipe
+Collecting mediapipe
+  Downloading mediapipe-0.9.0-cp310-cp310-win_amd64.whl (49.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 49.8/49.8 MB 4.0 MB/s eta 0:00:00
+Requirement already satisfied: flatbuffers>=2.0 in c:\users\muhammed hashir\appdata\local\programs\python\python310\lib\site-packages (from mediapipe) (22.10.26)
+Collecting matplotlib
+  Downloading matplotlib-3.6.2-cp310-cp310-win_amd64.whl (7.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.2/7.2 MB 6.3 MB/s eta 0:00:00
+Requirement already satisfied: numpy in c:\users\muhammed hashir\appdata\local\programs\python\python310\lib\site-packages (from mediapipe) (1.23.4)
+Requirement already satisfied: protobuf<4,>=3.11 in c:\users\muhammed hashir\appdata\local\programs\python\python310\lib\site-packages (from mediapipe) (3.19.6)
+Collecting opencv-contrib-python
+  Downloading opencv_contrib_python-4.6.0.66-cp36-abi3-win_amd64.whl (42.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.5/42.5 MB 6.6 MB/s eta 0:00:00
+Requirement already satisfied: absl-py in c:\users\muhammed hashir\appdata\local\programs\python\python310\lib\site-packages (from mediapipe) (1.3.0)
+Collecting attrs>=19.1.0
+  Downloading attrs-22.1.0-py2.py3-none-any.whl (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.8/58.8 kB ? eta 0:00:00
+Collecting pillow>=6.2.0
+  Using cached Pillow-9.3.0-cp310-cp310-win_amd64.whl (2.5 MB)
+Collecting kiwisolver>=1.0.1
+  Downloading kiwisolver-1.4.4-cp310-cp310-win_amd64.whl (55 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 55.3/55.3 kB ? eta 0:00:00
+Collecting cycler>=0.10
+  Downloading cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Requirement already satisfied: pyparsing>=2.2.1 in c:\users\muhammed hashir\appdata\local\programs\python\python310\lib\site-packages (from matplotlib->mediapipe) (3.0.9)
+Collecting contourpy>=1.0.1
+  Downloading contourpy-1.0.6-cp310-cp310-win_amd64.whl (163 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 163.6/163.6 kB 10.2 MB/s eta 0:00:00
+Requirement already satisfied: packaging>=20.0 in c:\users\muhammed hashir\appdata\local\programs\python\python310\lib\site-packages (from matplotlib->mediapipe) (21.3)
+Collecting fonttools>=4.22.0
+  Downloading fonttools-4.38.0-py3-none-any.whl (965 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 965.4/965.4 kB 8.7 MB/s eta 0:00:00
+Collecting python-dateutil>=2.7
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.7/247.7 kB 5.1 MB/s eta 0:00:00
+Requirement already satisfied: six>=1.5 in c:\users\muhammed hashir\appdata\local\programs\python\python310\lib\site-packages (from python-dateutil>=2.7->matplotlib->mediapipe) (1.16.0)
+Installing collected packages: python-dateutil, pillow, opencv-contrib-python, kiwisolver, fonttools, cycler, contourpy, attrs, matplotlib, mediapipe
+Successfully installed attrs-22.1.0 contourpy-1.0.6 cycler-0.11.0 fonttools-4.38.0 kiwisolver-1.4.4 matplotlib-3.6.2 mediapipe-0.9.0 opencv-contrib-python-4.6.0.66 pillow-9.3.0 python-dateutil-2.8.2
+PS C:\Users\Muhammed Hashir\Desktop\body-movement-tracking> python det.py
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+PS C:\Users\Muhammed Hashir\Desktop\body-movement-tracking>                                                                                                                                                                                                                                                                                                                                                                                                                                     
+                                                                                                                        
